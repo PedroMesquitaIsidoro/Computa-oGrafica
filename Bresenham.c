@@ -26,7 +26,7 @@ void ligarLinhas(int x0, int y0, int x1, int y1){
         sIncrementoY = -1;
     }
 
-    while( x != x1 && y != y1){
+    while( x != x1 || y != y1){
         printf("(%d,%d)\n", x, y);
 
         if(erro < 0){
